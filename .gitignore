@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Runtime case data - created by the app; may contain real vendor/personal
+# e-mail addresses and quotation content, so it is never committed.
+data/cases/*
+!data/cases/.gitkeep
+data/settings.json
+
+# Credentials - never commit real keys/passwords. Copy .env.example instead.
+.env
+.env.local
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
